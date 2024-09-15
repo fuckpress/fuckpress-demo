@@ -11,6 +11,7 @@ Made with love <3
 ## Structure
 
 |item|description|
+|:--|:--|
 |fp-admin.yaml| file with data to be used in the web|
 |docs|folder with page built, ready to be deployed|
 
