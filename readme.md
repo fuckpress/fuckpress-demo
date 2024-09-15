@@ -4,9 +4,15 @@
   <img src="https://github.com/user-attachments/assets/1aa03ce3-94ea-49c5-9860-89d0d33fda26" width=150>  
 </p>
 
-Yes, another lightweight, headless and simple static page generator but on steroids. 
+Yes, [FuckPress](https://github.com/fuckpress/fuckpress-core) is another lightweight, headless and simple static page generator but on steroids. 
 
 Made with love <3
+
+## Structure
+
+|item|description|
+|fp-admin.yaml| file with data to be used in the web|
+|docs|folder with page built, ready to be deployed|
 
 ## Requirements
 
@@ -40,7 +46,7 @@ Go to http://localhost:2708 and you will see the demo
 ## Publish
 
 ```
-fuckpress --publish
+fuckpress --publish --output=docs
 ```
 
 ## Advanced usage
