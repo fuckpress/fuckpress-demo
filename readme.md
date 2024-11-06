@@ -4,20 +4,21 @@
   <img src="https://github.com/user-attachments/assets/1aa03ce3-94ea-49c5-9860-89d0d33fda26" width=150>  
 </p>
 
-Yes, [FuckPress](https://github.com/fuckpress/fuckpress-core) is another lightweight, headless and simple static page generator but on steroids. 
-
-Made with love <3
+Made with [FuckPress](https://github.com/fuckpress/fuckpress-core)
 
 ## Structure
+
+As you can see, you only need the **fp-admin.yaml** file. 
 
 |item|description|
 |:--|:--|
 |fp-admin.yaml| file with data to be used in the web|
-|docs|folder with page built, ready to be deployed|
 
 ## Requirements
 
 - Nodejs
+  - Just the first time and or for development. 
+  - The result will not require nodejs because the publish result are static files like html, css, js, etc
 
 ## Install
 
@@ -46,9 +47,17 @@ Go to http://localhost:2708 and you will see the demo
 
 ## Publish
 
+This command allow you to generate a static build (html, js, css, etc) on any folder. 
+
+In this example we will generate the static page in a **docs** folder to use github page
+
 ```
 fuckpress --publish --output=docs
 ```
+
+## Custom theme
+
+For custom theme, just create a folder called theme at the root with the common static content : index.html, css, js, etc
 
 ## Advanced usage
 
